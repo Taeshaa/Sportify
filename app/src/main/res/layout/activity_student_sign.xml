@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd"
+    tools:context=".StudentSign">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="49dp"
+        android:background="@drawable/bottom"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signupstu"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="586dp"
+        android:layout_height="239dp"
+        android:background="@drawable/Frameerdfg"
+        tools:layout_editor_absoluteX="-147dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="NAME"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/Roll"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="ROLL NO"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="EMAIL ID"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <EditText
+        android:id="@+id/Branch"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="BRANCH"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/Year"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="YEAR"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/Hostel"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="HOSTEL"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="49dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_horizontal"
+        android:shadowColor="20305C"
+        android:text="ENTER"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
