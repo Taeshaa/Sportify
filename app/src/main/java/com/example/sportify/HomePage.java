@@ -8,21 +8,23 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
-    Button btn,login;
+    Button btn, sign;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
         btn= findViewById(R.id.button2);
-        Drawable img = btn.getContext().getResources().getDrawable( R.drawable.Student );
-        btn.setCompoundDrawablesWithIntrinsicBounds( img, null, null, null);
+        sign=findViewById(R.id.buttonn);
+
+
+
 
         btn.setOnClickListener(view -> {
-            startActivity(new Intent(HomePage.this, StudentSign.class));
-        });
-        login.setOnClickListener(view -> {
             startActivity(new Intent(HomePage.this, StudentLogin.class));
+        });
+        sign.setOnClickListener(view -> {
+            startActivity(new Intent(HomePage.this, StudentSign.class));
         });
     }
 }

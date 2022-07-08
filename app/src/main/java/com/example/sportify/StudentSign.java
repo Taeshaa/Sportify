@@ -32,13 +32,14 @@ public class StudentSign extends AppCompatActivity {
         setContentView(R.layout.activity_student_sign);
         mFirebaseAuth = FirebaseAuth.getInstance();
         emailId = findViewById(R.id.Email);
-        password = findViewById(R.id.pass);
+        password = findViewById(R.id.Password);
         name = findViewById(R.id.Name);
         branch = findViewById(R.id.Branch);
         hostel = findViewById(R.id.Hostel);
-        roll = findViewById(R.id.Roll);
+        roll = findViewById(R.id.RollNumber);
         year = findViewById(R.id.Year);
-        btnSignUp = findViewById(R.id.button3);
+        btnSignUp = findViewById(R.id.button4);
+        clickLogin = findViewById(R.id.textView14);
 
         //clickLogin = findViewById(R.id.Exist);
         dbroot=FirebaseFirestore.getInstance();

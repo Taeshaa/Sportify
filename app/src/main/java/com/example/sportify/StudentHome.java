@@ -10,8 +10,6 @@ public class StudentHome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        racquet=findViewById(R.id.racq);
-        ball=findViewById(R.id.ball);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_home);
     }

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class StudentLogin extends AppCompatActivity {
     EditText emailId, password;
+    TextView tv;
     Button btnLogin;
     TextView clickLogin;
     FirebaseAuth mFirebaseAuth;
@@ -28,9 +30,10 @@ public class StudentLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_login);
         mFirebaseAuth = FirebaseAuth.getInstance();
-        emailId = findViewById(R.id.EmailId);
-        password = findViewById(R.id.Password);
-        btnLogin = findViewById(R.id.button);
+        emailId = findViewById(R.id.editTextTextEmailAddress);
+        tv = findViewById(R.id.textView2);
+        password = findViewById(R.id.editTextTextPassword);
+        btnLogin = findViewById(R.id.button3);
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {

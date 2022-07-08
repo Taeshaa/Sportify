@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_home_page.xml" value="0.4" />
+        <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/font/lobster.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_home_page.xml" value="0.176" />
         <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_student_home.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_student_login.xml" value="0.20208333333333334" />
-        <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_student_sign.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/mendi/AndroidStudioProjects/Sportify/app/src/main/res/layout/activity_student_sign.xml" value="0.4" />
       </map>
     </option>
   </component>
